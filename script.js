@@ -36,7 +36,7 @@ async function loadFeed(feedUrl, feedNbr) {
 
             return {
                 title: getText("title"),
-                link: getText("link"),
+                link: getText("link") || item.querySelector("link")?.getAttribute("href") || "",
                 published: getText("updated") || getText("pubDate") || getText("published"),
                 description: getText("description") || getText("content\\:encoded"),
                 author: getText("author"),
