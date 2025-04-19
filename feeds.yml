@@ -1,0 +1,42 @@
+feeds:
+  -
+    - title: CNRS Le Journal
+      link: https://lejournal.cnrs.fr
+      url: https://lejournal.cnrs.fr/rss
+      with_desc: true
+    - title: Quanta Magazine
+      link: https://quantamagazine.org
+      url: https://api.quantamagazine.org/feed/
+    - title: Phys.org
+      link: https://phys.org
+      url: http://phys.org/rss-feed/
+    - title: Symmetry Magazine
+      link: http://www.symmetrymagazine.org
+      url: http://www.symmetrymagazine.org/feed
+  -
+    - title: Le Monde
+      link: https://www.lemonde.fr
+      url: https://www.lemonde.fr/rss/une.xml
+      with_desc: true
+    - title: L'Équipe
+      link: https://lequipe.fr
+      url: https://dwh.lequipe.fr/api/edito/rss?path=/
+      nbr: 10
+    - title: Hacker News
+      link: https://news.ycombinator.com
+      url: https://news.ycombinator.com/rss
+      nbr: 10
+  -
+    - title: Planet Emacslife
+      link: https://planet.emacslife.com
+      url: http://planet.emacslife.com/atom.xml
+      nbr: 10
+    - title: Reddit /r/emacs
+      link: https://www.reddit.com/r/emacs
+      url: http://www.reddit.com/r/emacs/.rss
+    - title: Towards Data Science
+      link: https://towardsdatascience.com
+      url: https://towardsdatascience.com/feed
+    - title: Jupyter Blog
+      link: https://blog.jupyter.org
+      url: https://blog.jupyter.org/feed
