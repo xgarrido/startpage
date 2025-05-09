@@ -63,6 +63,12 @@ h2 {
 .feed a:hover {
   text-decoration: underline;
 }
+.feed a:visited {
+  color: #888;
+}
+.feed h2 a:visited {
+  color: inherit;
+}
 h2 a {
   font-size: 1rem !important;
 }
